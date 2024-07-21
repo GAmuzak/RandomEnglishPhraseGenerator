@@ -35,3 +35,9 @@ window.onload = async () => {
 window.onclick = () => {
     showRandomPhrase();
 };
+
+window.onkeydown = (event) => {
+    if (event.code === 'Space') {
+        showRandomPhrase();
+    }
+};
