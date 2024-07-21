@@ -8,16 +8,32 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    user-select: none; 
+    user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
 
 #phrase-container {
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     padding: 20px;
     user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.footer a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
