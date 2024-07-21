@@ -7,7 +7,7 @@ Shows random english phrases based on the [Mackenzie phrase set](https://www.yor
 To run this program, clone the repository, and run the following commands
 
 ```py
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ```py
