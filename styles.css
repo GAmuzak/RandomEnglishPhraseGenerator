@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#phrase-container {
+    font-size: 5em;
+    text-align: center;
+    padding: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

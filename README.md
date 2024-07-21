@@ -4,20 +4,4 @@ Shows random english phrases based on the [Mackenzie phrase set](https://www.yor
 
 ## Usage
 
-To run this program, clone the repository, and run the following commands
-
-```py
-pip install -r requirements.txt
-```
-
-```py
-python phrase_generator.py
-```
-
-Once the window appears, right click to generate a random phrase.
-
-Close the program anytime to exit.
-
-## Functioning
-
-The script automatically fetches the phrase set from the [permanent download link](http://www.yorku.ca/mack/PhraseSets.zip) and unzips its contents in the Data folder. It fetches the phrase set from there. If the phrases are ever updated, or if a different dataset is to be provdided, please edit the target url and target file in the header of the main script as required.
+Go to [Random English Phrase Generator Github page](https://gamuzak.github.io/RandomEnglishPhraseGenerator) to use this phrase generator
