@@ -13,6 +13,19 @@ body {
     -ms-user-select: none;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightgrey;
+    position: absolute;
+    top: 10px;
+}
+
+header h1, header h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
 #phrase-container {
     font-size: 3em;
     text-align: center;
